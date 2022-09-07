@@ -49,6 +49,10 @@ def build_model(hp):
 
 
 def plot_acc_loss(history, model_name, conf_matrix, conf_matrix_test):
+
+    if not os.path.exists("kt_tuned_models_results"):
+        os.makedirs("kt_tuned_models_results")
+
     f1 = plt.figure()
     plt.plot(history.history['categorical_accuracy'], 'r', label='Training accuracy')
     plt.plot(history.history['val_categorical_accuracy'], 'g', label='Validation accuracy')
