@@ -13,4 +13,6 @@ Python script for LSTM hyperparameter tuning and model training.
 Training, validation and testing data and their labels are included in the "Data" folder. Each sample is of shape (14,33) where each row represents the normalized fast-point-feature histogram of a point cloud frame.
 # Pretrained Models
 Pretrained models on batch sizes 16,32,48 and 64 are available. They can be accessed via `tensorflow.keras.models.load_model("model_name")` and `model.summary()`
+# Execution Time
+The script was executed on a cuDNN-enabled GTX1660Ti GPU with an execution time of ~3 hours.
 
