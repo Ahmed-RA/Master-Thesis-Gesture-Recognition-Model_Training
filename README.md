@@ -1,5 +1,5 @@
 # Master-Thesis-Gesture-Recognition-Model_Training
-Python script for LSTM hyperparameter tuning and model training. 
+Python script for LSTM hyperparameter tuning and model training of the gesture recognition system. 
 
 # Dependencies
 - Python 3.9.2
